@@ -1,10 +1,10 @@
-package prisongame.prisongame.nbt
+package me.honkling.nbt
 
 import org.bukkit.Bukkit
 import org.bukkit.OfflinePlayer
 import org.bukkit.persistence.PersistentDataContainer
 import org.bukkit.persistence.PersistentDataHolder
-import prisongame.prisongame.nbt.tag.CompoundTag
+import me.honkling.nbt.tag.CompoundTag
 import java.io.FileInputStream
 import java.util.zip.GZIPInputStream
 

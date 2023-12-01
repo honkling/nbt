@@ -4,8 +4,8 @@ import org.bukkit.NamespacedKey
 import org.bukkit.persistence.PersistentDataAdapterContext
 import org.bukkit.persistence.PersistentDataContainer
 import org.bukkit.persistence.PersistentDataType
-import prisongame.prisongame.nbt.tag.CompoundTag
-import prisongame.prisongame.nbt.tag.Tag
+import me.honkling.nbt.tag.CompoundTag
+import me.honkling.nbt.tag.Tag
 
 class OfflinePlayerPDC(val bukkitValues: CompoundTag) : PersistentDataContainer {
     val adapterContext = OfflinePlayerPersistentDataAdapterContext()

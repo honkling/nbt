@@ -1,6 +1,6 @@
 package me.honkling.nbt
 
-import prisongame.prisongame.nbt.tag.*
+import me.honkling.nbt.tag.*
 import java.nio.ByteBuffer
 import java.util.zip.GZIPInputStream
 
