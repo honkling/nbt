@@ -1,0 +1,11 @@
+name: nbt
+version: '${version}'
+main: me.honkling.nbt.NBT
+api-version: '1.20'
+prefix: NBT
+load: STARTUP
+authors: [ honkling ]
+description: NBT library
+website: https://github.com/honkling/nbt
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.20
